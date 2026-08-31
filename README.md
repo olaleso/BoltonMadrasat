@@ -1,4 +1,17 @@
-# vinext-starter
+# Bolton Madrasat Management System
+
+## Deploy to Cloudflare Workers
+
+This project does not require the hidden `.openai` directory when deployed to
+your own Cloudflare account.
+
+- Build command: `npm run build`
+- Deploy command: `npx wrangler deploy --config dist/server/wrangler.json`
+- Recommended Node.js version: `24`
+
+The build creates the Worker and public assets under `dist/`.
+
+## Technical foundation
 
 A clean full-stack starter running on
 [vinext](https://github.com/cloudflare/vinext), with optional Cloudflare D1 and
